@@ -124,12 +124,33 @@
 | ...dan masih banyak |                 |
 
 ## Data & Calendar
-- Tiap bahasa pemrograman biasanya memiliki representasi tanggal, di Java juga sama, ada class Date & Calendar yang bisa kita gunakan sebagai representasi tanggal
-- Sebenarnya di Java 8 suda ada cara manipulasi tanggal yang baru menggunakan Java Date Time Api, namun itu akan kita bahas di course terpisah
+
+- Tiap bahasa pemrograman biasanya memiliki representasi tanggal, di Java juga sama, ada class Date & Calendar yang bisa
+  kita gunakan sebagai representasi tanggal
+- Sebenarnya di Java 8 suda ada cara manipulasi tanggal yang baru menggunakan Java Date Time Api, namun itu akan kita
+  bahas di course terpisah
 - Sekarang kita akan fokus menggunakan class Data dan Calendar
 
 ## Hubungan Data dan Calendar
+
 - Class Date adalah class representasi tanggal sampai presisi milisecond
-- Namun di class Date sudah banyak method-method yang di deprecated, sehingga untuk memanipulasi date tanggal, kita sekarang harus melakukan kombinasi antara class Date dan Calendar
+- Namun di class Date sudah banyak method-method yang di deprecated, sehingga untuk memanipulasi date tanggal, kita
+  sekarang harus melakukan kombinasi antara class Date dan Calendar
 - Sederhananya Date untuk representasi tanggal dan Calendar untuk memanipulasi tanggal
+
+## System Class
+
+- Class System adalah class yang berisikan banyak utility static method di Java, contohnya sebelumnya kita sudah sering
+  menggunakan method println milik field out di class System.
+
+## Method di System Class
+
+| Method                   | Keterangan                                      |
+|--------------------------|-------------------------------------------------|
+| String getenv(key)       | Mendapatkan environment variable sistem operasi |
+| void exit(status)        | Menghentikan program Java                       |
+| long currentTimeMilis()  | Mendapatkan waktu saat ini dalam milisecond     |
+| long nanoTime()          | Mendapatkan waktu saat ini dalam nanosecond     |
+| void gc()                | Menjalankan Java garbage collection             |
+| ...dan masih banyak lagi |              |
 
