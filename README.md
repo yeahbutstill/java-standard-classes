@@ -167,3 +167,8 @@
 | long totalMemory()        | Mendapatkan jumlah total memory di JVM                                                     |
 | long maxMemory()          | Mendapatkan jumlah maksimum memory di JVM                                                  |
 | void gc()                 | Menjalankan garbage collector untuk menghilangkan data di memory yang sudah tidak terpakai |
+
+## UUID Class
+- Saat membuat aplikasi, kadang kita ada kasus ingin membuat data unique, misal untuk kebutuhan data primary key misalnya
+- Java menyediakan sebuah class UUID atau singkatan dari Universally Unique Identifier.
+- UUID adalah format standard untuk membuat unique value yang telah terjamin
