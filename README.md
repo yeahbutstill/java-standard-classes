@@ -65,3 +65,17 @@
 - valueOf(string) digunakan untuk mengkonversi dari string ke tipe data number non primitif
 - Method ini akan throw NumberFormatException jika ternyata gagal melakukan konversi String ke Number
 
+## Math Class
+- Class Math merupakan class utilities yang berisikan banyak sekali static method untuk operasi numerik, seperti trigonometric, logarithm, akar pangkat dan lain-lain
+
+## Mthod di Math Class
+| Method                | Keterangan                      |
+|-----------------------|---------------------------------|
+| double cos(double)    | Menghitung cos di trigonometric |
+| double sin(double)    | Menghitung sin di trigonometric |
+| double tan(double)    | Menghitung tan di trigonometric |
+| min(number1, number2) | Mengambil nilai terkecil        |
+| max(number1, number2) | Mengambil nilai terbesar        |
+| ...dan masih banyak   |         |
+
+
