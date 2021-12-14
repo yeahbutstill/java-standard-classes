@@ -172,3 +172,9 @@
 - Saat membuat aplikasi, kadang kita ada kasus ingin membuat data unique, misal untuk kebutuhan data primary key misalnya
 - Java menyediakan sebuah class UUID atau singkatan dari Universally Unique Identifier.
 - UUID adalah format standard untuk membuat unique value yang telah terjamin
+
+## Base64 Class
+- Sejak Java 8, Java sudah menyediakan class untuk melakukan encoding bas64
+- Buat programmer web pasti tahu tentang base64, yaitu encoding yang bisa digunakan untuk mengubah binary data ke text yang aman 
+- Aman disini bukan dari sisi security, tapi aman dari kesalahan parsing
+
