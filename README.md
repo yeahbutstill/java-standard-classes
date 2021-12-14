@@ -41,15 +41,19 @@
 - Ini sangat bagus ketika ada kasus misalnya kita ingin mem-print Array dengan format yang kita mau misalnya
 
 ## StringTokenizer Class
-- StringTokenizer class adalah class yang bisa digunakan untuk memotong String menjadi token atau String yang lebih kecil
+
+- StringTokenizer class adalah class yang bisa digunakan untuk memotong String menjadi token atau String yang lebih
+  kecil
 - Kita bisa memotong String dengan delimiter yang kita mau
 
 ## Nummber Class
+
 - Semua number class yang bukan primitif memiliki parent class yang sama, yaitu class Number
 - Class number memiliki banyak method yang bisa digunakan untuk mengkonversi ke tipe number lain
 - Hal ini memudahkan kita untuk mengkonversi object number dari satu tipe ke tipe number lainnya
 
 ## Method di Number Class
+
 | Method               | Keterangan                   |
 |----------------------|------------------------------|
 | byte byteValue()     | Mengubah menjadi tipe byte   |
@@ -60,15 +64,19 @@
 | short shortValue()   | Mengubah menjadi short value |
 
 ## Konversi String ke Number
+
 - Long, Integer, Short dan Byte memiliki static method untuk melakukan konversi dari String ke Number
 - parseXxx(string) digunakan untuk mengkonversi dari string ke tipe data number primitif
 - valueOf(string) digunakan untuk mengkonversi dari string ke tipe data number non primitif
 - Method ini akan throw NumberFormatException jika ternyata gagal melakukan konversi String ke Number
 
 ## Math Class
-- Class Math merupakan class utilities yang berisikan banyak sekali static method untuk operasi numerik, seperti trigonometric, logarithm, akar pangkat dan lain-lain
+
+- Class Math merupakan class utilities yang berisikan banyak sekali static method untuk operasi numerik, seperti
+  trigonometric, logarithm, akar pangkat dan lain-lain
 
 ## Mthod di Math Class
+
 | Method                | Keterangan                      |
 |-----------------------|---------------------------------|
 | double cos(double)    | Menghitung cos di trigonometric |
@@ -79,11 +87,14 @@
 | ...dan masih banyak   |         |
 
 ## Big Number
-- Jika kita ada kebutuhan untuk menggunakan angkat yang besar sehingga melebihi kapasitas Long dan Double, di Java sudah disediakan class untuk handle data besar tersebut
+
+- Jika kita ada kebutuhan untuk menggunakan angkat yang besar sehingga melebihi kapasitas Long dan Double, di Java sudah
+  disediakan class untuk handle data besar tersebut
 - BigInteger adalah class untuk handle tipe data Integer, dan
 - BigDecimal adalah class untuk handle tipe data floating point
 
 ## Method di BigInteger & BigDecimal
+
 | Method                   | Operator |
 |--------------------------|---------|
 | add                      | +       |
@@ -93,4 +104,21 @@
 | mod                      | %       |
 | ...dan masih banyak lagi |         |
 
+## Scanner Class
 
+- Scanner sebenarnya bagian dari Java IO(Input Output), dan ini akan dibahas di materi terpisah
+- Namun sekarang kita akan bahas sekilas tentang class Scanner
+- Class Scanner hadir sejak Java 5
+- Class Scanner adalah class yang bisa digunakan untuk membaca input,entah dari file, console dan lain-lain
+- Class Scanner ini cocok untuk dijadikan object untuk membaca input user saat kita belajar membuat program java
+  menggunakan console / terminal
+
+## Method di Scanner Class
+
+| Method              | Keterangan      |
+|---------------------|-----------------|
+| nextLine()          | Membaca string  |
+| nextInt()           | Membaca int     |
+| nextLong()          | Membaca long    |
+| nextBoolean()       | Membaca boolean |
+| ...dan masih banyak |                 |
