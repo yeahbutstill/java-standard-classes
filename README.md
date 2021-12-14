@@ -40,3 +40,8 @@
 - StringJoiner juga mendukung prefix(depan) dan suffix(belakang) jika kita ingin menambahkannya
 - Ini sangat bagus ketika ada kasus misalnya kita ingin mem-print Array dengan format yang kita mau misalnya
 
+## StringTokenizer Class
+- StringTokenizer class adalah class yang bisa digunakan untuk memotong String menjadi token atau String yang lebih kecil
+- Kita bisa memotong String dengan delimiter yang kita mau
+
+
