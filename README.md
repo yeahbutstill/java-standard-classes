@@ -16,3 +16,27 @@
 | boolean startsWith(value) | Mengecek apakah dimulai dengan string value  |
 | boolean endsWith(value)   | Mengecek apakah diakhiri dengan string value |
 | String[] split(value)     | Memotong string dengan string value          |
+
+## StringBuffer dan StringBuilder Class
+
+## Immutable String
+
+- String adalah tipe data immutable, artinya tidak bisa berubah isinya, saat kita mengubah string, sebenarnya yang
+  dilakukan di Java adalah membuar String baru.
+- Jika kita ingin memanipulasi String dalam jumlah banyak, sangat tidak disarankan menggunakan String, karena akan
+  memakan memory yang cukup besar, untuk kasus seperti ini, disarankan menggunakan StringBuffer atau StringBuilder
+
+## StringBuffer vs StringBuilder
+
+- Kemampuan StringBuffer dan StringBuilder cukup sama, bisa digunakan untuk memanipulasi String
+- Yang membedakan adalah, StringBuffer itu Thread Safe, sedangkan StringBuilder tidak Thread Safe
+- Jika kita ingin memanipulasi String secara paralel bersamaan, disarankan menggunakan StringBuffer, namun jika tidak
+  butuh paralel, cukup gunakan StringBuilder
+- Karena StringBuffer dibuat agar Thread Safe, maka secara otomatis performanya lebih lambat dibandingkan StringBuilder
+
+## StringJoiner Class
+
+- StringJoiner adalah class yang bisa digunakan untuk membuat String sequence yang dipisahkan dengan delimiter(pemisah)
+- StringJoiner juga mendukung prefix(depan) dan suffix(belakang) jika kita ingin menambahkannya
+- Ini sangat bagus ketika ada kasus misalnya kita ingin mem-print Array dengan format yang kita mau misalnya
+
