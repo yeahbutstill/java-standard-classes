@@ -78,4 +78,19 @@
 | max(number1, number2) | Mengambil nilai terbesar        |
 | ...dan masih banyak   |         |
 
+## Big Number
+- Jika kita ada kebutuhan untuk menggunakan angkat yang besar sehingga melebihi kapasitas Long dan Double, di Java sudah disediakan class untuk handle data besar tersebut
+- BigInteger adalah class untuk handle tipe data Integer, dan
+- BigDecimal adalah class untuk handle tipe data floating point
+
+## Method di BigInteger & BigDecimal
+| Method                   | Operator |
+|--------------------------|---------|
+| add                      | +       |
+| subtract                 | -       |
+| multiply                 | *       |
+| divide                   | /       |
+| mod                      | %       |
+| ...dan masih banyak lagi |         |
+
 
