@@ -191,3 +191,5 @@
 - Objects adalah class utility yang berisikan banyak static method yang bisa kita gunakan untuk operasi object atau
   melakukan pengecekan sebelum operasinya dilakukan
 
+## Random Class
+- Random class adalah class yang bisa kita gunakan untuk meng-generate random number
