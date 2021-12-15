@@ -192,4 +192,14 @@
   melakukan pengecekan sebelum operasinya dilakukan
 
 ## Random Class
+
 - Random class adalah class yang bisa kita gunakan untuk meng-generate random number
+
+## Properties Class
+
+### Properties File
+
+- Kebanyakan aplikasi Java akan menyimpan konfigurasi file dalam bentuk properties file
+- Properties file adalah file yang berisikan key dan value dipisahkan dengan tanda sama dengan(=)
+- Properties file bisa kita gunakan untuk menyimpan konfigurasi aplikasi kita
+
