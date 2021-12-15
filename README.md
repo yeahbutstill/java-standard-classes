@@ -155,11 +155,14 @@
 | ...dan masih banyak lagi |              |
 
 ## Runtime Class
+
 - Ketika aplikasi Java kita berjalan kita bisa melihat informasi environment tempat aplikasi Java berjalan
 - Informasi itu terdapat di class Runtime.
-- Class Runtime tidak bisa dibuat, secara otomatis Java akan membuat single object. Kita bisa mengakses object tersebut menggunakan static method getRuntime() milik class Runtime
+- Class Runtime tidak bisa dibuat, secara otomatis Java akan membuat single object. Kita bisa mengakses object tersebut
+  menggunakan static method getRuntime() milik class Runtime
 
 ## Method di Runtime Class
+
 | Method                    | Keterangan                                                                                 |
 |---------------------------|--------------------------------------------------------------------------------------------|
 | int availableProcessors() | Mendapatkan jumlah core cpu                                                                |
@@ -169,12 +172,22 @@
 | void gc()                 | Menjalankan garbage collector untuk menghilangkan data di memory yang sudah tidak terpakai |
 
 ## UUID Class
-- Saat membuat aplikasi, kadang kita ada kasus ingin membuat data unique, misal untuk kebutuhan data primary key misalnya
+
+- Saat membuat aplikasi, kadang kita ada kasus ingin membuat data unique, misal untuk kebutuhan data primary key
+  misalnya
 - Java menyediakan sebuah class UUID atau singkatan dari Universally Unique Identifier.
 - UUID adalah format standard untuk membuat unique value yang telah terjamin
 
 ## Base64 Class
+
 - Sejak Java 8, Java sudah menyediakan class untuk melakukan encoding bas64
-- Buat programmer web pasti tahu tentang base64, yaitu encoding yang bisa digunakan untuk mengubah binary data ke text yang aman 
+- Buat programmer web pasti tahu tentang base64, yaitu encoding yang bisa digunakan untuk mengubah binary data ke text
+  yang aman
 - Aman disini bukan dari sisi security, tapi aman dari kesalahan parsing
+
+## Objects Class
+
+- Awas jangan tertukar, ini class Objects bukan Object
+- Objects adalah class utility yang berisikan banyak static method yang bisa kita gunakan untuk operasi object atau
+  melakukan pengecekan sebelum operasinya dilakukan
 
