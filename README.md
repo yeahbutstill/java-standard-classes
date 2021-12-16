@@ -203,3 +203,8 @@
 - Properties file adalah file yang berisikan key dan value dipisahkan dengan tanda sama dengan(=)
 - Properties file bisa kita gunakan untuk menyimpan konfigurasi aplikasi kita
 
+### Properties Class
+
+- Properties Class adalah class yang bisa kita gunakan untuk mengambil atau menyimpan informasi ke file properties
+
+
