@@ -207,4 +207,16 @@
 
 - Properties Class adalah class yang bisa kita gunakan untuk mengambil atau menyimpan informasi ke file properties
 
+## Arrays Class
+- Array class adalah class yang berisikan static method yang bisa kita gunakan untuk memanipulasi data array, seperti pencarian dan pengurutan
+
+## Method di Arrays Class
+| Method                     | Keterangan                        |
+|----------------------------|-----------------------------------|
+| binarySearch(array, value) | Mencari value di array            |
+| copyOf(...)                | Mencari data array                |
+| equals(array1, array2)     | Membandingkan array1 dan array2   |
+| sort(array)                | Mengurutkan array                 |
+| toString(array)            | Mengembalikan representasi string |
+| ...dan masih banyak        |  |
 
